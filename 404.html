@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafen - 404 Not Found</title>
+    <link rel="stylesheet" href="404.css">
+</head>
+<body>
+
+    <section class="container">
+        <h1>Cafen</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="About.html"><b>About Us</b></a></li>
+                <li><a href="Events.html">Events</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+            </ul>
+        </nav>
+        <a href="/ResturantCoffen/Book table.html">
+        <button onclick="location.href='#bookingModal'">Book your table</button>
+        </a>
+    </section>
+
+    <section class="container-404">
+        <div class="p404">
+            <h1>404</h1>
+            <h2>Oppss! not found</h2>
+            <p>The page you are looking for doesn't exist or has been moved</p>
+            <a href="/ResturantCoffen/index.html">
+            <button>Back to home</button>
+            </a>
+        </div>
+    </section>
+
+    <footer class="cafen-footer">
+        
+        <div class="newsletter">
+            <div class="newsletter-icon">☕</div>
+            <p>Sign up for our newsletter for updates on new menu items, special offers</p>
+            <form>
+                <input type="email" placeholder="hello@yourbrand.com" required>
+                <button type="reset">Subscribe now</button>
+            </form>
+        </div>
+
+        <div class="footer-main">
+            
+            <div class="footer-info">
+                <h2 class="logo">Cafen</h2>
+                <h4>Opening hours</h4>
+                <p>Mon to Fri: 7:00 am – 8:00 pm<br>
+                   Sat & Sun: 8:00 am – 6:00 pm<br>
+                   <em>Hours may vary on public holidays</em></p>
+                <p class="credits">Designed by <a href="#">Webestica</a>, Powered by <a href="#">Framer</a></p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Page links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Events.html">Events</a></li>
+                    <li><a href="#bookingModal">Book a Table</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="#">Locations</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Prcy.html">Privacy Policy</a></li>
+                    <li><a href="404.html">404</a></li>
+                </ul>
+                
+                <div class="social">
+                    <a href="https://facebook.com" target="_blank" aria-label="Facebook">Facebook</a>
+                    <a href="https://instagram.com" target="_blank" aria-label="Instagram">Instigram</a>
+                    <a href="mailto:hello@yourbrand.com" aria-label="Email">Email</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <div id="bookingModal" class="modal-box">
+        <div class="modal-box-content">
+            <a href="#" class="close-modal-btn">&times;</a>
+            
+            <h2>Book a Table</h2>
+            <form action="#">
+                <input type="text" placeholder="Your Name" required>
+                <input type="date" required>
+                <input type="time" required>
+                <input type="number" placeholder="Number of Guests" min="1" required>
+                
+                <a href="#" class="submit-link-btn">
+                    <button type="reset">Confirm Booking</button>
+                </a>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,480 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #fdfaf5;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e6dcce;
+}
+
+.container h1 {
+    color: #5b0010;
+    margin: 0;
+    font-family: serif;
+}
+
+.container nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.container nav ul li a {
+    text-decoration: none;
+    color: #725b53;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.container nav ul li a:hover {
+    color: #5b0010;
+}
+
+.container button {
+    background-color: #5b0010;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container button:hover {
+    background-color: #40000a;
+}
+
+.privacy-container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.privacy-header {
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #e6dcce;
+    padding-bottom: 20px;
+}
+
+.privacy-header h1 {
+    font-size: 38px;
+    color: #5b0010;
+    font-family: serif;
+    margin: 0 0 10px 0;
+}
+
+.privacy-header p {
+    color: #a38c83;
+    font-size: 14px;
+    margin: 0;
+}
+
+.policy-block {
+    margin-bottom: 35px;
+}
+
+.policy-block h2 {
+    font-size: 20px;
+    color: #5b0010;
+    margin-bottom: 12px;
+}
+
+.policy-block p {
+    font-size: 16px;
+    color: #725b53;
+    line-height: 1.6;
+    margin: 0;
+}
+.cafen-footer {
+    background-color: #fdfaf5;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    border-top: 1px solid #e6dcce;
+}
+
+.newsletter {
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+.newsletter-icon {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.newsletter p {
+    font-size: 22px;
+    color: #5b0010;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 25px;
+}
+
+.newsletter form {
+    display: flex;
+    background-color: #ffffff;
+    border: 1px solid #e6dcce;
+    border-radius: 50px;
+    padding: 6px 6px 6px 20px;
+    align-items: center;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.newsletter input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    color: #725b53;
+}
+
+.newsletter button {
+    background-color: #fcd875;
+    border: none;
+    color: #5b0010;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: #fbc642;
+}
+
+.footer-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 1100px;
+}
+
+.footer-info {
+    background-color: #f7ebd9;
+    border-radius: 24px;
+    padding: 40px;
+    flex: 1.2;
+    color: #5b0010;
+}
+
+.footer-info .logo {
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-family: serif;
+}
+
+.footer-info h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-info p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #4b1a1a;
+}
+
+.footer-info em {
+    font-size: 12px;
+    color: #8c6f65;
+    display: block;
+    margin-top: 10px;
+}
+
+.credits {
+    margin-top: 50px;
+    font-size: 12px;
+    color: #725b53;
+}
+
+.credits a {
+    color: #5b0010;
+    text-decoration: underline;
+}
+
+.footer-links {
+    background-color: #5b0010;
+    border-radius: 24px;
+    padding: 40px;
+    flex: 1;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-links h3 {
+    font-size: 18px;
+    color: #f7ebd9;
+    margin-bottom: 25px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px 40px;
+}
+
+.footer-links ul li a {
+    color: #f7ebd9;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.footer-links ul li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.social {
+    display: flex;
+    gap: 12px;
+    margin-top: 40px;
+}
+
+.social a {
+    text-decoration: none;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.social a:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.modal-box {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-box:target {
+    display: flex;
+}
+
+.modal-box-content {
+    background-color: #fbf6ee;
+    padding: 35px;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 380px;
+    position: relative;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4);
+    color: #5b0010;
+    text-align: center;
+}
+
+.close-modal-btn {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 30px;
+    color: #725b53;
+    text-decoration: none;
+}
+
+.close-modal-btn:hover {
+    color: #5b0010;
+}
+
+.modal-box-content h2 {
+    margin-bottom: 20px;
+    font-family: serif;
+}
+
+.modal-box-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.modal-box-content input {
+    padding: 12px;
+    border: 1px solid #e6dcce;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+.submit-link-btn {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.submit-link-btn button {
+    width: 100%;
+    background-color: #fcd875;
+    color: #5b0010;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.submit-link-btn button:hover {
+    background-color: #fbc642;
+}
+@media (max-width: 430px) {
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .container h1 {
+        font-size: 26px;
+    }
+
+    .container nav ul {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+
+    .container button {
+        padding: 10px 18px;
+    }
+
+    .privacy-container {
+        margin: 35px 15px;
+        padding: 0;
+    }
+
+    .privacy-header h1 {
+        font-size: 28px;
+    }
+
+    .policy-block h2 {
+        font-size: 18px;
+    }
+
+    .policy-block p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+    .newsletter p {
+        font-size: 18px;
+    }
+
+    .newsletter form {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .newsletter button {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+    .footer-main {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer-info,
+    .footer-links {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 25px;
+    }
+
+    .footer-links ul {
+        grid-template-columns: 1fr;
+    }
+
+    .social {
+        justify-content: center;
+    }
+    .modal-box-content {
+        width: 85%;
+        padding: 25px 20px;
+    }
+}
+@media (min-width: 431px) and (max-width: 1024px) {
+
+    .container {
+        padding: 20px 30px;
+    }
+
+    .container nav ul {
+        gap: 20px;
+    }
+
+    .privacy-container {
+        max-width: 700px;
+        padding: 0 30px;
+    }
+
+    .privacy-header h1 {
+        font-size: 34px;
+    }
+
+    .footer-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-info,
+    .footer-links {
+        width: 90%;
+        max-width: 700px;
+        box-sizing: border-box;
+    }
+
+    .footer-links ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .newsletter {
+        max-width: 550px;
+    }
+}
