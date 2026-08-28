@@ -498,17 +498,19 @@ body {
     background-color: #2c1810;
 }
 .container-content {
+    text-align: center;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px 20px;
-}
-
-.content-image {
-    background-image: url('/ResturantCoffen/image/ooo.jpg');
+    background-image: url('image/download18.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.content-image {
+    text-align: center;
     width: 100%;
     min-height: 550px;
     border-radius: 20px;
@@ -519,6 +521,7 @@ body {
 }
 
 .content-form {
+    text-align: center;
     background-color: #FFF4BF;
     padding: 35px;
     max-width: 450px;
